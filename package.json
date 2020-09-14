@@ -1,0 +1,24 @@
+{
+  "name": "routsey.js",
+  "version": "1.0.1",
+  "description": "JavaScript Router and Template Engien",
+  "main": "node_modules/routsey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgraffis/routsey.js.git"
+  },
+  "keywords": [
+    "router",
+    "javascript",
+    "template"
+  ],
+  "author": "Nick Graffis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickgraffis/routsey.js/issues"
+  },
+  "homepage": "https://github.com/nickgraffis/routsey.js#readme"
+}
