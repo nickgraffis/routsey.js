@@ -1,0 +1,2 @@
+## Templating
+### The ``` render() ``` funciton
