@@ -1,0 +1,139 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.copy:hover {
+    background-color: #ffdd57;
+color: #242424;
+}
+
+.copy {
+    border-radius: 4px;
+color: #ffdd57;
+cursor: pointer;
+padding: 3px;
+}
+
+/* Header */
+.nav-links {
+    font-size: 24px; 
+}
+.header-body {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1); 
+    padding-bottom: 10px; 
+    padding-top: 25px;
+}
+.color_box {
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.koi {
+    padding-top: 10px;
+}
+.logo {
+    font-size: 30px; 
+    padding-right: 30px;
+}
+.logo-link {
+    color: rgba(74, 74, 74);
+}
+.search_form {
+    font-size: 20px;
+}
+.search_bar {
+    border: none; 
+    box-shadow: 0 0 30px 0 rgba(43,86,112,.1); 
+    background-image: url(/1f79b2a….svg) no-repeat 1.8rem 50%; 
+    background-color: #fff; 
+    width: 40rem; 
+    max-width: 40rem;
+}
+.search_enter {
+    position: absolute; 
+    left: -9999px; 
+    width: 1px; 
+    height: 1px;"
+}
+
+/* Result Identifier */
+.results {
+    padding-bottom: 30px;
+}
+.results_text {
+    font-size: 50px;
+}
+
+/* Result Boxes */
+.results_boxes {
+    padding: 24px 140px 0px 140px;
+}
+.medium {
+    border-radius: 24px;
+    height: 250px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.medium .hex_alert {
+    padding-top: 75px;
+    visibility: hidden;
+}
+.short {
+    border-radius: 24px;
+    height: 200px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.short .hex_alert {
+    padding-top: 50px;
+    visibility: hidden;
+}
+.long {
+    border-radius: 24px;
+    height: 350px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.long .hex_alert {
+    padding-top: 100px;
+    visibility: hidden;
+}
+.hex {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.hexalert {
+    padding-top: 25%; 
+    visibility: hidden;
+}
+
+/* Code */
+h3.subtitle {
+    line-height: 75px;
+}
+pre.threehundred {
+    max-height: 300px;
+}
+.menu {
+    position: fixed;
+    top: 150px; 
+    max-width: 200px;
+}
+
+/* Reason */
+.reason {
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    padding-bottom: 25px;
+}
+.hero-foot {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}

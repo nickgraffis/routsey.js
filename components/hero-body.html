@@ -1,0 +1,68 @@
+<template>
+	<div class="hero-body">
+	    <div class="container">
+	    	<div class="column is-6 is-offset-1 is-hidden-touch" style="z-index: 1; position: absolute;">
+		        <p class="title"><span style="font-size: 5rem">Routsey.js</span></p>
+		        <p class="subtitle is-5"></br><i>Easy to use and understand javascript routing and templating. Check out the <a>docs</a> or <a>source code</a>. Or a little teaser below 👇</i></p>
+		        <nav class="level">
+		        	<div class="level-right">
+		        		<div class="level-item">
+		        		<span class="fa-stack fa-1x" style="color: #a0a4d9;">
+							<i class="far fa-circle fa-stack-2x sun-icon-border" id="border" aria-hidden="true"></i>
+						  	<i class="fab fa-github fa-stack-1x" id="color-mode" aria-hidden="true"></i>
+						</span>
+		        	</div>
+		        	<div class="level-item">
+		        		<span class="fa-stack fa-1x" style="color: #a0a4d9;">
+							<i class="far fa-circle fa-stack-2x sun-icon-border" id="border" aria-hidden="true"></i>
+						  	<i class="fab fa-npm fa-stack-1x" id="color-mode" aria-hidden="true"></i>
+						</span>
+		        	</div>
+		        	<div class="level-item">
+		        		<span class="fa-stack fa-1x" style="color: #a0a4d9;">
+							<i class="far fa-circle fa-stack-2x sun-icon-border" id="border" aria-hidden="true"></i>
+						  	<i class="fab fa-medium-m fa-stack-1x" id="color-mode" aria-hidden="true"></i>
+						</span>
+		        	</div>
+		        	<div class="level-item">
+		        		<span class="fa-stack fa-1x" style="color: #a0a4d9;">
+							<i class="far fa-circle fa-stack-2x sun-icon-border" id="border" aria-hidden="true"></i>
+						  	<i class="fas fa-book fa-stack-1x" id="color-mode" aria-hidden="true"></i>
+						</span>
+		        	</div>
+		        	</div>
+		        </nav>
+		        <hr class="primary">
+		        <pre style="background-color: #272822; border-radius: 0.3em; padding: 1em; margin: .5em 0; color: #fff; font-size: 1em;">
+		        	
+		        	<nav class="level" style="margin-bottom: -35px; margin-top: -35px;">
+		        		<div class="level-left">
+		        			<code><span>npm install routsey.js</span></code>
+		        		</div>
+		        		<div class="level-right" style="padding-right: 10px;">
+		        			<code class="copy">copy</code>
+		        		</div>
+		        	</nav>
+		        	</pre>
+		        	<hr class="primary">
+		        <pre class="language-javascript"><code class="language-javascript">const Router = require('router');</code>
+		        <code class="language-javascript">
+const render = require('render');</code>
+</code>
+<code class="language-javascript">const router = new Router({
+  root: "/"
+});</code>
+		        <code class="language-javascript">
+router.add('/', () => {
+  render('templates/main.html', {title: 'Routsey.js rocks!'});
+});</code></pre>
+		      </div>
+		      <div class="column is-8 is-offset-5 is-hidden-touch">
+		        <figure class="image">
+		          <img src="https://static.dribbble.com/users/116039/screenshots/2262374/09-25-old-muni.jpg">
+		        </figure>
+		      </div>
+	    </div>
+	    </div>
+	  </div>
+</template>
